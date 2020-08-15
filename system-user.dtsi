@@ -5,7 +5,7 @@
 	compatible = "realdigital,blackboard", "xlnx,zynq-7000";
 
 	chosen {
-		bootargs = "console=ttyPS0,115200 console=tty0 consoleblank=0 root=/dev/mmcblk0p2 rw rootwait earlyprintk uio_pdrv_genirq.of_id=generic-uio";
+		bootargs = "console=ttyPS0,115200 console=tty0 consoleblank=0 root=/dev/mmcblk0p2 rw rootfstype=ext4 rootwait earlyprintk uio_pdrv_genirq.of_id=generic-uio";
 /*		bootargs = "console=ttyPS0,115200 earlyprintk uio_pdrv_genirq.of_id=generic-uio"; */
 	};
 
